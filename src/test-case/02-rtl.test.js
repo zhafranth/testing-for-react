@@ -4,5 +4,5 @@ import App from "../App";
 test("Menyapa nama yang ada dalam aplikasi", () => {
   render(<App />);
   const text = screen.getByText("Hello Zhafran");
-  expect(text).toBeInTheDOM();
+  expect(text).toBeInTheDocument();
 });
